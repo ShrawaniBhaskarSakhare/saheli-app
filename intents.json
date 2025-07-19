@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey there"],
+      "responses": ["Hi! I'm your Saheli helper. How can I assist you today?"]
+    },
+    {
+      "tag": "use",
+      "patterns": ["How to use the pad?", "Steps to use", "Usage guide"],
+      "responses": ["1. Unwrap the pad\n2. Place it properly\n3. Dispose responsibly after use."]
+    },
+    {
+      "tag": "safety",
+      "patterns": ["Is it safe?", "Any side effects?"],
+      "responses": ["Yes! The Saheli Healing Pad is 100% herbal, biodegradable, and safe for all."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Take care! I'm here if you need me again."]
+    }
+  ]
+}
